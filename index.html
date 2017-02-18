@@ -32,7 +32,23 @@
 
 				#alertbox .txt {padding:2%; background:#fff; position:fixed; top:40%; left:30%; font-size:40px; text-align: center;font-weight: bolder;  }	
 			</style>
-			<script type="text/javascript">
+			
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="container-fluid">
+				<div id="alertbox">
+					<div class="cols-lg-12 txt"></div>
+				</div>
+				<div class="row" id="colors">
+					
+
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
 				var selectedColor = "";
 				function codeCopied(ele){
 					$("#alertbox").css({"background":$(ele).data('colorcode')});
@@ -79,19 +95,4 @@
         			});
 				});
 			</script>
-	</head>
-
-	<body>
-		<div class="wrapper">
-			<div class="container-fluid">
-				<div id="alertbox">
-					<div class="cols-lg-12 txt"></div>
-				</div>
-				<div class="row" id="colors">
-					
-
-				</div>
-			</div>
-		</div>
-	</body>
 </html>
